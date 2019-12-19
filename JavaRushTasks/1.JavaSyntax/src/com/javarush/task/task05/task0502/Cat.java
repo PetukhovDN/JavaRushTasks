@@ -13,15 +13,12 @@ public class Cat {
     }
 
     public boolean fight(Cat anotherCat) {
-        int catWin = 0;
-        int anotherCatWin = 0;
-        if (this.age > anotherCat.age) catWin++;
-        else anotherCatWin++;
-        if (this.strength > anotherCat.strength) catWin++;
-        else anotherCatWin++;
-        if (this.weight > anotherCat.weight) catWin++;
-        else anotherCatWin++;
-        return catWin > 2;
+        int ageAdvantage = this.age > anotherCat.age ? 1 : 0;
+        int weightAdvantage = this.weight > anotherCat.weight ? 1 : 0;
+        int strengthAdvantage = this.strength > anotherCat.strength ? 1 : 0;
+
+        int score = ageAdvantage + weightAdvantage + strengthAdvantage;
+        return score > 2; // return score > 2 ? true : false;
     }
 
     public static void main(String[] args) {
