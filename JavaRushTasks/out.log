@@ -7452,3 +7452,25 @@ java.lang.NullPointerException
 2019-12-19 18:13:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
 2019-12-19 18:14:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
 2019-12-19 18:15:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:16:15 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:17:23 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:18:28 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:19:16 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:20:23 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2019-12-19 18:21:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:22:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:23:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:24:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:25:15 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:26:17 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:27:14 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:28:17 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:29:17 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:30:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:31:14 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:32:14 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:33:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:34:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:35:14 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:36:15 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-19 18:37:13 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
