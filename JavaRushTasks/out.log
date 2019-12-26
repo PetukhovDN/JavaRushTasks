@@ -16711,3 +16711,38 @@ java.lang.NullPointerException
 2019-12-26 12:27:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
 2019-12-26 12:28:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
 2019-12-26 12:29:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:30:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:31:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:32:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:33:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:34:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:35:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:36:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:37:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:38:08 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:38:51 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-12-26 12:38:51 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-12-26 12:45:06 INFO  ApacheHttpClient.getWebResourceAsStream(483) - responseCode = 200
+2019-12-26 12:46:31 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-12-26 12:46:31 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-12-26 12:46:31 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.35 ----------
+
+2019-12-26 12:46:31 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.35 ----------
+
+2019-12-26 12:46:34 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(583) - Waiting for server response.
+2019-12-26 12:46:34 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(583) - Waiting for server response.
+2019-12-26 12:46:34 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(583) - Waiting for server response.
+2019-12-26 12:46:34 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(583) - Waiting for server response.
+2019-12-26 12:46:35 INFO  ApacheHttpClient.refreshUserInfo(291) - responseCode = 200
+2019-12-26 12:46:35 INFO  ApacheHttpClient.refreshUserInfo(291) - responseCode = 200
+2019-12-26 12:46:35 INFO  ApacheHttpClient.refreshUserInfo(297) - User information received.
+2019-12-26 12:46:35 INFO  ApacheHttpClient.refreshUserInfo(297) - User information received.
+2019-12-26 12:46:35 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-12-26 12:46:35 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-12-26 12:46:35 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-12-26 12:46:35 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-12-26 12:46:36 INFO  ApacheHttpClient.getWebResourceAsStream(483) - responseCode = 200
+2019-12-26 12:46:36 INFO  ApacheHttpClient.getWebResourceAsStream(483) - responseCode = 200
+2019-12-26 12:47:35 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-12-26 12:47:35 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
