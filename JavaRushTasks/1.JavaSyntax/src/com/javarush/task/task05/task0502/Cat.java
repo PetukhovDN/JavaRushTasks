@@ -13,16 +13,11 @@ public class Cat {
     }
 
     public boolean fight(Cat anotherCat) {
-        int score1 = 0;
-        int score2 = 0;
-        if (this.age > anotherCat.age) score1++;
-        else score2++;
-        if (this.weight > anotherCat.weight) score1++;
-        else score2++;
-        if (this.strength > anotherCat.strength) score1++;
-        else score2++;
-
-        return score1 >= score2;
+        //напишите тут ваш код
+        int advantage = Integer.compare(this.age, anotherCat.age) +
+                Integer.compare(this.weight, anotherCat.weight) +
+                Integer.compare(this.strength, anotherCat.strength);
+        return advantage > 0;
     }
 
     public static void main(String[] args) {
