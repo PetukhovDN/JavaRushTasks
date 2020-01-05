@@ -17,11 +17,20 @@ public class Solution {
     }
 
     public static Map<String, Cat> createMap() {
-        //напишите тут ваш код
+        HashMap<String, Cat> map = new HashMap<>();//напишите тут ваш код
+        for (int i = 0; i < 10; i++) {
+            Cat cat = new Cat("Cat" + i);
+            map.put(cat.name, cat);
+        }
+        return map;
     }
 
     public static Set<Cat> convertMapToSet(Map<String, Cat> map) {
-        //напишите тут ваш код
+        HashSet<Cat> set = new HashSet<>();//напишите тут ваш код
+        for (Map.Entry<String, Cat> pair : map.entrySet()) {
+            set.add(pair.getValue());
+        }
+        return set;
     }
 
     public static void printCatSet(Set<Cat> set) {
