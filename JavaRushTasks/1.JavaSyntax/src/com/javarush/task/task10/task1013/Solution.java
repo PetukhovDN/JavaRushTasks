@@ -16,9 +16,6 @@ public class Solution {
         private boolean sex;
         private String address;
 
-        public Human() {
-        }
-
         public Human(int age) {
             this.age = age;
         }
@@ -40,6 +37,18 @@ public class Solution {
             this.age = age;
             this.name = name;
             this.weight = weight;
+        }
+
+        public Human(int age, int height, boolean sex) {
+            this.age = age;
+            this.height = height;
+            this.sex = sex;
+        }
+
+        public Human(int height, boolean sex, String address) {
+            this.height = height;
+            this.sex = sex;
+            this.address = address;
         }
 
         public Human(int age, String name, int weight, int height) {
