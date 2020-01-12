@@ -29713,3 +29713,11 @@ java.lang.NullPointerException
 2020-01-12 11:24:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-12 11:24:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-12 11:24:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:25:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:25:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:25:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:25:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:26:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:26:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:26:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-12 11:26:10 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
