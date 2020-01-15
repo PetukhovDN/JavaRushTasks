@@ -32466,3 +32466,22 @@ java.lang.NullPointerException
 2020-01-15 10:15:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-15 10:16:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-15 10:17:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:18:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:19:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:20:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:21:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:22:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:23:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:24:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:25:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:31:42 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 10:31:43 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:31:43 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:31:43 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:31:43 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:31:43 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:32:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:33:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:34:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:35:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:36:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
