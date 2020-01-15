@@ -32487,3 +32487,427 @@ java.lang.NullPointerException
 2020-01-15 10:36:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-15 10:37:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-15 10:38:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:39:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:40:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:41:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:42:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:43:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:44:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:45:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:46:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:47:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:48:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:49:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:49:41 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:49:42 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 10:49:53 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:49:56 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:50:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:50:25 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:50:25 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:50:26 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 10:50:27 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:50:28 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:50:35 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:50:35 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 10:50:36 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:50:37 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:50:38 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:50:40 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:51:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:51:17 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:51:17 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:51:18 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 10:51:19 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:51:21 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:51:32 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:51:32 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 10:51:33 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:51:36 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:52:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:52:36 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:52:36 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:52:37 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 10:52:37 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:52:38 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:52:45 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:52:45 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 10:52:47 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:52:47 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:52:48 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:52:52 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:53:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:54:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:55:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:55:45 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:55:46 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:55:47 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 10:55:47 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:55:49 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:56:00 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:56:00 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 10:56:02 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 10:56:06 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:56:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:57:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:58:10 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:58:11 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:58:12 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 10:58:12 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 10:58:14 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:58:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 10:58:26 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 10:58:26 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 10:59:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:00:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:01:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:02:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:03:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:04:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:05:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:06:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:07:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:08:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:09:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:10:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:11:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:12:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:13:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:14:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:15:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:16:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:17:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:18:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:19:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:22:33 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 11:22:33 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:22:34 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:23:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:24:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:25:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:26:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:27:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:28:19 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:29:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:30:27 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 11:31:15 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 11:32:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:33:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:34:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:35:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:36:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:37:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:38:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:39:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:40:15 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 11:41:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:42:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:43:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:44:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:45:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:46:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:47:21 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 11:48:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:49:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:50:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:51:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:52:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:53:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:54:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:55:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:56:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:57:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:58:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 11:59:22 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 12:00:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:01:19 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 12:02:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:03:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:04:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:05:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:06:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:07:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:08:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:09:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:10:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:11:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:12:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:13:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:14:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:15:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:16:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:17:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:18:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:19:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:20:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:21:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:22:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:23:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:24:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:25:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:26:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:27:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:28:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:29:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:30:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:31:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:32:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:33:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:34:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:35:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:36:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:37:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:38:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:39:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:40:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:41:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:42:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:43:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:44:15 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 12:45:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:46:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:47:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:48:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:49:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:50:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:51:20 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:52:15 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 12:53:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:54:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:55:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:56:24 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 12:57:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:58:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 12:59:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:00:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:01:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:02:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:03:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:04:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:05:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:06:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:07:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:08:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:09:32 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 13:10:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:11:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:12:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:13:20 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:14:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:15:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 13:16:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:05:38 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 14:06:10 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:06:10 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:06:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:06:18 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:06:20 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:06:48 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:06:49 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:06:50 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:06:50 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:06:52 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:07:00 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:07:00 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:07:02 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:07:05 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:07:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:07:38 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:07:38 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:07:39 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:07:40 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:07:46 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:07:55 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:07:55 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:07:57 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:07:59 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:08:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:08:58 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:09:00 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:09:00 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:09:00 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:09:00 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:09:13 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:09:13 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:09:15 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:09:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:09:17 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:09:49 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:09:50 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:09:51 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:09:52 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:09:52 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:10:00 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:10:00 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:10:02 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:10:04 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:10:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:11:06 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:11:06 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:11:08 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:11:08 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:11:11 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:11:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:11:16 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:11:16 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:11:22 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:11:24 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:12:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:12:18 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:12:18 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:12:21 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:12:22 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:12:24 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:12:35 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:12:39 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:12:42 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:12:50 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:13:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:14:05 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:14:06 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:14:07 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:14:09 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:14:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:14:29 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:14:29 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:14:31 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:14:31 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:14:32 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:14:41 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:14:41 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:14:43 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:14:48 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:15:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:15:29 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:15:30 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:15:31 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:15:32 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:15:33 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:15:39 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:15:39 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:15:41 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:15:44 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:16:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:17:09 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:17:10 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:17:11 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:17:11 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:17:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:17:30 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:17:30 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:17:31 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:17:32 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:17:33 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:17:47 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:17:48 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:17:51 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:17:55 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:18:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:18:43 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:18:44 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:18:45 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:19:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:19:16 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:19:16 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:19:42 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:19:42 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:19:43 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:19:47 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:20:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:20:41 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:20:43 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:20:47 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:20:48 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:20:50 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:20:57 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:20:57 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:20:59 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:21:01 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:21:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:22:06 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:22:07 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:22:09 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:22:11 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:22:11 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:22:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:22:21 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:22:21 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:22:23 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 14:22:25 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:23:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:24:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:25:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:26:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:27:16 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:27:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:27:17 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:27:18 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:27:18 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:28:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:29:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:30:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:31:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:32:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:32:58 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:32:59 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:33:00 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 14:33:00 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:33:00 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 14:33:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:33:45 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 14:33:46 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 14:34:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:35:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:36:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:37:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:38:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:39:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:40:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
