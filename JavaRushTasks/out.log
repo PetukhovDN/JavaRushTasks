@@ -32911,3 +32911,57 @@ java.lang.NullPointerException
 2020-01-15 14:38:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-15 14:39:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-15 14:40:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:41:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:42:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:43:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:44:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:45:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:46:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:47:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:48:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:49:17 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:50:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:51:17 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:52:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:53:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:54:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:55:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:56:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:57:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:58:16 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 14:59:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:00:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:00:55 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:00:55 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 15:00:58 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 15:01:04 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:01:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:01:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:02:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:02:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:03:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:03:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:04:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:04:46 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:04:47 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 15:04:49 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:04:51 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 15:04:52 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 15:05:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:05:30 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:05:30 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-15 15:05:32 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-15 15:05:34 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:06:30 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-15 15:06:30 ERROR ApacheHttpClient.getServerAvailabilityStatus(559) - Error while checking server availability. : java.util.concurrent.ExecutionException
+2020-01-15 15:06:30 WARN  ValidateButton.isServerAvailable(78) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-15 15:06:47 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:06:48 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 15:06:50 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-01-15 15:06:50 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-15 15:06:50 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:07:08 ERROR ApacheHttpClient.getServerAvailabilityStatus(559) - Error while checking server availability. : java.util.concurrent.ExecutionException
+2020-01-15 15:07:08 WARN  SelectTaskButton.isServerAvailable(78) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-15 15:07:15 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-15 15:07:38 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-15 15:07:38 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200

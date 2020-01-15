@@ -1,7 +1,7 @@
-package com.javarush.task.task12.task1201;
+package com.javarush.task.task12.task1202;
 
 /* 
-Киты и коровы
+Кит, коровий потомок
 */
 
 public class Solution {
@@ -20,7 +20,7 @@ public class Solution {
     public static class Whale extends Cow {
         @Override
         public String getName() {
-            return "Я не корова, Я - кит.";
+            return "";
         }
     }
 }
