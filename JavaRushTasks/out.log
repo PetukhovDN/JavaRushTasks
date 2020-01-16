@@ -33830,3 +33830,9 @@ java.net.UnknownHostException: javarush.ru
 2020-01-16 10:25:49 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
 2020-01-16 10:25:51 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
 2020-01-16 10:25:51 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-16 10:25:55 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-16 10:25:56 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-16 10:31:33 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-16 10:31:34 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-16 10:31:37 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-16 10:31:38 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
