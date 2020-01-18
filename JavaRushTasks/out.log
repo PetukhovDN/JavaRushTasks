@@ -33903,6 +33903,471 @@ java.net.UnknownHostException: javarush.ru
 2020-01-18 20:32:26 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-18 20:33:25 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-18 20:34:25 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+<<<<<<< HEAD
+2020-01-18 20:35:23 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-01-18 20:35:24 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-19 16:04:38 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-19 16:04:38 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-19 16:04:38 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-19 16:04:38 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-19 16:04:38 ERROR ApacheHttpClient.testConnection(212) - Error while checking the connection with the server 
+java.util.concurrent.ExecutionException: java.net.UnknownHostException: javarush.ru: Неизвестное имя или служба
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:568)
+	at com.homework.plugin.client.ApacheHttpClient.testConnection(ApacheHttpClient.java:200)
+	at com.homework.plugin.client.RestApiClientFactory.<clinit>(RestApiClientFactory.java:19)
+	at com.homework.plugin.PluginTasksProjectComponent$1.projectOpened(PluginTasksProjectComponent.java:87)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$1.projectOpened(ProjectManagerImpl.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeListener(MessageBusImpl.java:518)
+	at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:138)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:438)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:398)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:388)
+	at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:372)
+	at com.intellij.util.messages.impl.MessageBusImpl.lambda$createTopicHandler$1(MessageBusImpl.java:241)
+	at com.sun.proxy.$Proxy72.projectOpened(Unknown Source)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.fireProjectOpened(ProjectManagerImpl.java:845)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$doLoadProject$9(ProjectManagerImpl.java:453)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransactionAndWait$2(TransactionGuardImpl.java:162)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:83)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:107)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:441)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:687)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at com.intellij.ide.IdeEventQueue.pumpEventsForHierarchy(IdeEventQueue.java:965)
+	at com.intellij.openapi.progress.util.ProgressWindow.startBlocking(ProgressWindow.java:186)
+	at com.intellij.openapi.progress.util.ProgressWindow.startBlocking(ProgressWindow.java:172)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runProcessWithProgressSynchronously(ApplicationImpl.java:455)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:453)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcessWithProgressSynchronously(ProgressManagerImpl.java:82)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:250)
+	at com.intellij.platform.ProjectUiFrameAllocator$run$1.run(ProjectFrameAllocator.kt:64)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:83)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransactionAndWait(TransactionGuardImpl.java:149)
+	at com.intellij.platform.ProjectUiFrameAllocator.run(ProjectFrameAllocator.kt:62)
+	at com.intellij.platform.PlatformProjectOpenProcessor.openExistingProject(PlatformProjectOpenProcessor.java:234)
+	at com.intellij.ide.RecentProjectsManagerBase.openProject(RecentProjectsManagerBase.kt:281)
+	at com.intellij.ide.RecentProjectsManagerBase.reopenLastProjectsOnStart(RecentProjectsManagerBase.kt:382)
+	at com.intellij.idea.IdeStarter$main$4.run(ApplicationLoader.kt:533)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:83)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:107)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransaction(TransactionGuardImpl.java:116)
+	at com.intellij.openapi.application.TransactionGuard.submitTransaction(TransactionGuard.java:121)
+	at com.intellij.idea.IdeStarter.main(ApplicationLoader.kt:523)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1.run(ApplicationLoader.kt:242)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:193)
+	at com.intellij.idea.ApplicationLoader$startApp$8.run(ApplicationLoader.kt:241)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:783)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.net.UnknownHostException: javarush.ru: Неизвестное имя или служба
+	at java.base/java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:609)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:580)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:427)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:276)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:266)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:363)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:125)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at com.homework.plugin.client.ApacheHttpClient.testConnection(ApacheHttpClient.java:199)
+	... 78 more
+2020-01-19 16:04:38 INFO  ApacheHttpClient.testConnection(216) - result = false
+2020-01-19 16:04:38 ERROR HttpsURLConnectionClient.<init>(78) - Error while getting the proxy login from HttpConfigurable.
+2020-01-19 16:04:38 ERROR HttpsURLConnectionClient.getServerAvailabilityStatus(722) - Error while checking server availability.
+java.net.UnknownHostException: javarush.ru
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:168)
+	at com.homework.plugin.client.HttpsURLConnectionClient.getServerAvailabilityStatus(HttpsURLConnectionClient.java:706)
+	at com.homework.plugin.PluginTasksProjectComponent$1.projectOpened(PluginTasksProjectComponent.java:89)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$1.projectOpened(ProjectManagerImpl.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeListener(MessageBusImpl.java:518)
+	at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:138)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:438)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:398)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:388)
+	at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:372)
+	at com.intellij.util.messages.impl.MessageBusImpl.lambda$createTopicHandler$1(MessageBusImpl.java:241)
+	at com.sun.proxy.$Proxy72.projectOpened(Unknown Source)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.fireProjectOpened(ProjectManagerImpl.java:845)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$doLoadProject$9(ProjectManagerImpl.java:453)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransactionAndWait$2(TransactionGuardImpl.java:162)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:83)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:107)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:441)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:687)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at com.intellij.ide.IdeEventQueue.pumpEventsForHierarchy(IdeEventQueue.java:965)
+	at com.intellij.openapi.progress.util.ProgressWindow.startBlocking(ProgressWindow.java:186)
+	at com.intellij.openapi.progress.util.ProgressWindow.startBlocking(ProgressWindow.java:172)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runProcessWithProgressSynchronously(ApplicationImpl.java:455)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:453)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcessWithProgressSynchronously(ProgressManagerImpl.java:82)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:250)
+	at com.intellij.platform.ProjectUiFrameAllocator$run$1.run(ProjectFrameAllocator.kt:64)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:83)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransactionAndWait(TransactionGuardImpl.java:149)
+	at com.intellij.platform.ProjectUiFrameAllocator.run(ProjectFrameAllocator.kt:62)
+	at com.intellij.platform.PlatformProjectOpenProcessor.openExistingProject(PlatformProjectOpenProcessor.java:234)
+	at com.intellij.ide.RecentProjectsManagerBase.openProject(RecentProjectsManagerBase.kt:281)
+	at com.intellij.ide.RecentProjectsManagerBase.reopenLastProjectsOnStart(RecentProjectsManagerBase.kt:382)
+	at com.intellij.idea.IdeStarter$main$4.run(ApplicationLoader.kt:533)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:83)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:107)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransaction(TransactionGuardImpl.java:116)
+	at com.intellij.openapi.application.TransactionGuard.submitTransaction(TransactionGuard.java:121)
+	at com.intellij.idea.IdeStarter.main(ApplicationLoader.kt:523)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1.run(ApplicationLoader.kt:242)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:193)
+	at com.intellij.idea.ApplicationLoader$startApp$8.run(ApplicationLoader.kt:241)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:783)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-01-19 16:04:44 ERROR HttpsURLConnectionClient.processExceptionGetWebResource(105) - (super) : Error while accessing the remote resource: https://javarush.ru/widget/pluginpages/com.javarush.task.task13.task1320/condition	Be sure the network is accessible and try again. : java.net.UnknownHostException
+2020-01-19 16:04:44 ERROR ConditionPanel.run(102) - HTML-content loading error.
+java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:167)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2440)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1110)
+	at com.homework.plugin.panel.ConditionPanel$1.run(ConditionPanel.java:82)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$9(PlatformImpl.java:418)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:417)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:277)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-01-19 16:05:48 ERROR HttpsURLConnectionClient.getServerAvailabilityStatus(722) - Error while checking server availability.
+java.net.UnknownHostException: javarush.ru
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:168)
+	at com.homework.plugin.client.HttpsURLConnectionClient.getServerAvailabilityStatus(HttpsURLConnectionClient.java:706)
+	at com.homework.plugin.button.AbstractButton.isServerAvailable(AbstractButton.java:70)
+	at com.homework.plugin.button.ResetTaskButton.actionPerformed(ResetTaskButton.java:27)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:298)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:315)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAwareWithCallbacks(ActionUtil.java:289)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:194)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:157)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:447)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6416)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5026)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:846)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:778)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-01-19 16:05:48 WARN  ResetTaskButton.isServerAvailable(78) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-19 10:06:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:06:54 INFO  HttpsURLConnectionClient.refreshUserInfo(820) - responseCode = 200
+2020-01-19 10:06:54 INFO  HttpsURLConnectionClient.refreshUserInfo(838) - User information received.
+2020-01-19 10:06:57 INFO  HttpsURLConnectionClient.resetTask(234) - responseCode = 200
+2020-01-19 10:06:57 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:06:57 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:06:57 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:15:37 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:15:37 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:15:38 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:16:47 ERROR HttpsURLConnectionClient.getServerAvailabilityStatus(722) - Error while checking server availability.
+java.net.UnknownHostException: javarush.ru
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:168)
+	at com.homework.plugin.client.HttpsURLConnectionClient.getServerAvailabilityStatus(HttpsURLConnectionClient.java:706)
+	at com.homework.plugin.button.AbstractButton.isServerAvailable(AbstractButton.java:70)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:29)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:298)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:315)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAwareWithCallbacks(ActionUtil.java:289)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:194)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:157)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:447)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6416)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5026)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:846)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:778)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-01-19 10:16:47 WARN  ValidateButton.isServerAvailable(78) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-19 10:16:55 ERROR HttpsURLConnectionClient.getServerAvailabilityStatus(722) - Error while checking server availability.
+java.net.UnknownHostException: javarush.ru
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:168)
+	at com.homework.plugin.client.HttpsURLConnectionClient.getServerAvailabilityStatus(HttpsURLConnectionClient.java:706)
+	at com.homework.plugin.button.AbstractButton.isServerAvailable(AbstractButton.java:70)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:29)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:298)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:315)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAwareWithCallbacks(ActionUtil.java:289)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:194)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:157)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:447)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6416)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5026)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4858)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:846)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:778)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-01-19 10:16:55 WARN  ValidateButton.isServerAvailable(78) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-19 10:17:44 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:17:44 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:17:45 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:17:45 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:17:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:17:49 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-19 10:17:53 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:17:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:19:26 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:19:26 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:19:35 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:19:36 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:20:01 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:20:02 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-19 10:20:04 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:20:04 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:26:38 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:26:38 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:26:43 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:26:44 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:26:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:26:54 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-19 10:26:55 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:26:56 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:29:18 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:29:18 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:29:20 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:29:20 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:29:25 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:29:25 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-19 10:29:28 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:29:28 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:30:24 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:30:25 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:30:26 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:30:27 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:30:30 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:30:30 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-19 10:30:31 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:30:32 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:32:39 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:32:41 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:32:43 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-19 10:32:43 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-19 10:32:45 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-19 10:32:46 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-19 10:32:49 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-19 10:32:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+=======
 2020-01-18 20:58:55 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
 2020-01-18 20:58:55 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
 
@@ -33913,6 +34378,7 @@ java.net.UnknownHostException: javarush.ru
 2020-01-18 20:58:59 INFO  AbstractRestApiClient.startService(71) - EventsService started.
 2020-01-18 20:59:09 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
 
+<<<<<<< HEAD
 2020-01-19 04:45:57 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
 2020-01-19 04:45:57 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
 
@@ -33930,3 +34396,6 @@ java.net.UnknownHostException: javarush.ru
 2020-01-19 04:47:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-19 04:48:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
 2020-01-19 04:49:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+=======
+>>>>>>> a77f5a93dcfa9a2176dc3c897dd0224fdd03e952
+>>>>>>> 25378afb3f63119ac91539fdd6f1453a4dbd0ba7
