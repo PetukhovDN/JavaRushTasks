@@ -33884,3 +33884,20 @@ java.net.UnknownHostException: javarush.ru
 2020-01-18 19:45:43 ERROR ApacheHttpClient.getServerAvailabilityStatus(559) - Error while checking server availability. : java.util.concurrent.ExecutionException
 2020-01-18 20:00:03 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
 
+2020-01-18 20:31:21 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-18 20:31:21 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-18 20:31:21 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-18 20:31:21 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-18 20:31:24 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-01-18 20:31:24 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-01-18 20:31:25 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-18 20:31:25 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-01-18 20:31:25 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-01-18 20:31:25 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-01-18 20:31:25 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-01-18 20:31:44 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-18 20:31:44 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-18 20:31:46 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-18 20:31:49 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-18 20:32:26 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
