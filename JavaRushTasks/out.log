@@ -33874,3 +33874,13 @@ java.net.UnknownHostException: javarush.ru
 2020-01-16 10:50:30 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
 2020-01-16 10:50:32 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
 2020-01-16 10:50:32 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-18 19:44:32 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-18 19:44:32 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-18 19:44:32 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-18 19:44:32 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-18 19:44:42 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-01-18 19:44:42 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-01-18 19:45:43 ERROR ApacheHttpClient.getServerAvailabilityStatus(559) - Error while checking server availability. : java.util.concurrent.ExecutionException
+2020-01-18 20:00:03 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
