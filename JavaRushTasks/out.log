@@ -34914,3 +34914,126 @@ java.net.UnknownHostException: javarush.ru
 2020-01-19 16:55:36 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
 2020-01-19 16:55:36 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
 2020-01-19 16:55:36 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-19 11:28:57 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-19 11:28:57 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-19 11:28:57 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-19 11:28:57 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-19 11:28:59 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-01-19 11:28:59 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-01-19 11:29:00 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-19 11:29:00 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-19 11:29:01 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-01-19 11:29:01 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-01-19 11:29:01 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-01-19 11:29:01 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-01-19 11:29:35 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-19 11:29:35 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-01-19 11:29:48 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-01-19 11:29:50 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-19 11:30:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:31:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:32:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:33:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:34:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:35:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:36:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:37:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:38:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:39:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:40:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:41:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:42:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:43:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:44:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:45:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:46:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:47:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:48:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:49:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:50:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:51:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:52:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:53:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 11:54:01 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:45:28 ERROR ApacheHttpClient.processExceptionSendEvent(109) - (super) : Error while sending the event to the server.
+2020-01-19 12:50:22 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-19 12:50:22 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-19 12:50:22 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-19 12:50:22 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-19 12:50:30 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-01-19 12:50:30 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-01-19 12:50:31 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-19 12:50:31 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-19 12:50:32 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-01-19 12:50:32 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-01-19 12:50:32 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-01-19 12:50:32 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-01-19 12:50:38 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-19 12:51:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:52:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:53:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:54:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:55:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:56:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:57:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:58:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 12:59:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:00:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:01:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:02:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:03:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:04:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:05:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-19 13:06:32 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
