@@ -35087,3 +35087,17 @@ java.net.UnknownHostException: javarush.ru
 2020-01-20 08:36:46 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
 
 2020-01-20 08:36:47 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-20 18:29:31 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-20 18:29:31 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-20 18:29:31 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-20 18:29:31 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-20 18:29:35 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-01-20 18:29:35 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-01-20 18:29:36 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-20 18:29:36 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-01-20 18:29:36 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-01-20 18:29:36 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-01-20 18:29:36 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-01-20 18:29:45 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-20 18:30:36 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
