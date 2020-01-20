@@ -8,53 +8,12 @@ public abstract class Hen {
     }
 }
 
-class RussianHen extends Hen {
-    @Override
-    public String getDescription() {
-        return super.getDescription() + " Моя страна - %s. Я несу %n яиц в месяц." + Country.RUSSIA + getCountOfEggsPerMonth();
-    }
 
-    @Override
-    int getCountOfEggsPerMonth() {
-        return 23;
 
-    }
-}
 
-class UkrainianHen extends Hen {
-    @Override
-    int getCountOfEggsPerMonth() {
-        return 5;
-    }
 
-    @Override
-    public String getDescription() {
-        return super.getDescription() + " Моя страна - %s. Я несу %n яиц в месяц." + Country.UKRAINE + getCountOfEggsPerMonth();
-    }
-}
 
-class BelarusianHen extends Hen {
-    @Override
-    int getCountOfEggsPerMonth() {
-        return 7;
-    }
 
-    @Override
-    public String getDescription() {
-        return super.getDescription() + " Моя страна - %s. Я несу %n яиц в месяц." + Country.BELARUS + getCountOfEggsPerMonth();
-    }
-}
 
-class MoldovanHen extends Hen {
-    @Override
-    int getCountOfEggsPerMonth() {
-        return 9;
-    }
-
-    @Override
-    public String getDescription() {
-        return super.getDescription() + " Моя страна - %s. Я несу %n яиц в месяц." + Country.MOLDOVA + getCountOfEggsPerMonth();
-    }
-}
 
 
