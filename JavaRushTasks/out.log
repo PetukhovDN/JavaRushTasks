@@ -40538,3 +40538,8 @@ java.net.UnknownHostException: javarush.ru
 2020-01-23 10:01:54 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
 2020-01-23 10:01:54 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
 2020-01-23 10:01:55 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-23 10:02:55 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-23 10:03:28 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-01-23 10:03:28 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-23 10:03:28 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
