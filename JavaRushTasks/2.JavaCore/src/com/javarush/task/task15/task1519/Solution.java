@@ -16,10 +16,9 @@ public class Solution {
             try {
                 s = reader.readLine();
                 if (s.equals("exit")) break;
-                double d = Double.parseDouble(s);
-                if (d % 1 > 0) print(d);
-                else if (d <= 0 || d >= 128) print((int) d);
-                else if (d > 0 && d < 128) print((short) d);
+                else if (s.contains(".")) print(Double.parseDouble(s));
+                else if (Integer.parseInt(s) <= 0 || Integer.parseInt(s) >= 128) print(Integer.parseInt(s));
+                else if (Short.parseShort(s) > 0 && Short.parseShort(s) < 128) print(Short.parseShort(s));
             } catch (NumberFormatException e) {
                 print(s);
             }
