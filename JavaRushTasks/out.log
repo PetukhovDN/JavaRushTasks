@@ -42501,3 +42501,23 @@ java.lang.NullPointerException
 2020-01-24 08:45:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
 2020-01-24 08:45:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
 2020-01-24 08:45:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-01-24 09:38:14 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-24 09:38:14 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-24 09:38:14 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-24 09:38:14 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-24 09:38:16 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-01-24 09:38:16 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-01-24 09:38:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-24 09:38:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-01-24 09:38:18 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-01-24 09:38:18 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-01-24 09:38:18 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-01-24 09:38:18 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-01-24 09:38:21 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-01-24 09:39:18 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-24 09:40:18 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-24 09:41:18 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-24 09:42:18 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-24 09:43:18 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-01-24 09:44:18 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
