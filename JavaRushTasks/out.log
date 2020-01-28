@@ -43909,3 +43909,70 @@ java.lang.NullPointerException
 2020-01-28 16:14:04 ERROR ApacheHttpClient.getFilteredTasks(337) - Error while retrieving the task list. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.MismatchedInputException
 2020-01-28 16:14:04 WARN  TheNewTaskChooserDialog.<init>(65) - You can't display the task list, since it is null.
 2020-01-28 16:14:08 WARN  SelectTaskButton.isServerAvailable(73) - The server is being updated. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-28 16:14:48 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 405
+2020-01-28 16:15:16 WARN  SelectTaskButton.isServerAvailable(73) - The server is being updated. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-28 16:15:19 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-01-28 16:15:20 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:20 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:15:20 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:20 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:15:20 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:20 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:15:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:21 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:15:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:21 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:15:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:21 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:15:21 INFO  ApacheHttpClient.getTask(479) - responseCode = 503
+2020-01-28 16:15:21 ERROR ApacheHttpClient.getTask(483) - Error while downloading the task. Be sure you have a network connection and try again. : com.fasterxml.jackson.databind.exc.InvalidFormatException
+2020-01-28 16:16:15 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-01-28 16:16:15 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-01-28 16:16:15 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-01-28 16:16:15 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-01-28 16:16:17 INFO  ApacheHttpClient.testConnection(201) - responseCode = 503
+2020-01-28 16:16:17 WARN  ApacheHttpClient.testConnection(206) - HTTP/1.1 503 Service Temporarily Unavailable [Server: nginx, Date: Tue, 28 Jan 2020 10:16:17 GMT, Content-Type: text/html, Content-Length: 311, Connection: keep-alive, ETag: "5e1d879f-137"] [Content-Length: 311,Chunked: false]
+2020-01-28 16:16:17 INFO  ApacheHttpClient.testConnection(216) - result = false
+2020-01-28 16:16:17 ERROR HttpsURLConnectionClient.<init>(78) - Error while getting the proxy login from HttpConfigurable.
+2020-01-28 16:16:23 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 503
+2020-01-28 16:16:37 WARN  SelectTaskButton.isServerAvailable(73) - The server is being updated. Wait a little, restart IntelliJ IDEA and try again.
+2020-01-28 18:06:59 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:06:59 INFO  HttpsURLConnectionClient.refreshUserInfo(820) - responseCode = 200
+2020-01-28 18:06:59 INFO  HttpsURLConnectionClient.refreshUserInfo(838) - User information received.
+2020-01-28 18:06:59 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:07:10 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:07:11 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:07:11 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 400
+2020-01-28 18:07:11 WARN  TaskCompleted.run(70) - You already completed this task: "В методе main добавить в статический объект list 5 нитей. Каждая нить должна быть новым объектом класса Thread, работающим со своим объектом класса SpecialThread."
+2020-01-28 18:07:18 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:07:19 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:07:47 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-28 18:07:48 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:19:36 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:19:36 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:19:40 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:19:41 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:19:42 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-28 18:19:42 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:20:29 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:20:29 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:20:31 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-01-28 18:20:31 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:28:02 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:28:03 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:28:10 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-28 18:28:26 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:28:26 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:28:30 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-28 18:53:07 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:53:07 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:53:27 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-01-28 18:53:27 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-01-28 18:54:30 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:54:31 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:54:34 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-01-28 18:54:34 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:54:38 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-01-28 18:54:53 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
