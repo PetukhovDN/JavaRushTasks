@@ -3,5 +3,6 @@
 #############
 
 *.log
-JavaRushTasks/out.log
+*.properties
+Instruction.png
 
