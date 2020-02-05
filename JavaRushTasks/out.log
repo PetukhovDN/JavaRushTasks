@@ -46833,3 +46833,71 @@ java.net.UnknownHostException: javarush.ru
 2020-02-04 19:34:45 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
 2020-02-04 19:34:45 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
 2020-02-04 19:34:45 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:34:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-02-04 19:34:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-02-04 19:34:49 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-02-04 19:34:49 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-02-04 19:35:11 INFO  HttpsURLConnectionClient.sendEvent(686) - responseCode = 200
+2020-02-04 19:35:11 INFO  HttpsURLConnectionClient.sendEvent(686) - responseCode = 200
+2020-02-04 19:35:13 INFO  HttpsURLConnectionClient.sendEvent(686) - responseCode = 200
+2020-02-04 19:35:13 INFO  HttpsURLConnectionClient.sendEvent(686) - responseCode = 200
+2020-02-04 19:35:28 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-02-04 19:35:28 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:28 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-04 19:35:29 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-02-05 08:29:38 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-02-05 08:29:38 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.37 ----------
+
+2020-02-05 08:29:38 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-02-05 08:29:38 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-02-05 08:29:41 INFO  ApacheHttpClient.testConnection(201) - responseCode = 200
+2020-02-05 08:29:41 INFO  ApacheHttpClient.testConnection(216) - result = true
+2020-02-05 08:29:43 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-02-05 08:29:43 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-02-05 08:29:43 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(593) - Waiting for server response.
+2020-02-05 08:29:43 INFO  ApacheHttpClient.refreshUserInfo(301) - responseCode = 200
+2020-02-05 08:29:44 INFO  ApacheHttpClient.refreshUserInfo(307) - User information received.
+2020-02-05 08:29:44 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-02-05 08:29:44 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-02-05 08:29:53 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:35:31 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:35:31 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-02-05 08:40:48 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-02-05 08:40:49 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:41:42 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:41:42 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-02-05 08:41:43 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:41:44 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-02-05 08:41:44 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-02-05 08:41:44 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-02-05 08:41:54 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:41:54 INFO  ApacheHttpClient.getFilteredTasks(332) - responseCode = 200
+2020-02-05 08:41:55 INFO  ApacheHttpClient.getTaskTemplateInfo(349) - responseCode = 200
+2020-02-05 08:41:57 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:42:44 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-02-05 08:43:44 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-02-05 08:44:44 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-02-05 08:45:42 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:45:43 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
+2020-02-05 08:45:43 INFO  ApacheHttpClient.getWebResourceAsStream(493) - responseCode = 200
+2020-02-05 08:45:44 INFO  ApacheHttpClient.completed(28) - responseCode = 200
+2020-02-05 08:45:44 INFO  ApacheHttpClient.sendEvent(526) - responseCode = 200
+2020-02-05 08:45:44 INFO  ApacheHttpClient.getTask(479) - responseCode = 200
