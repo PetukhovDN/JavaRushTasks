@@ -5,69 +5,37 @@ package com.javarush.task.task18.task1827;
 */
 
 import java.io.*;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 
 public class Solution {
-
     public static void main(String[] args) throws Exception {
         if (args.length < 4 || !args[0].equals("-c")) return;
-        float price;
-        int qty;
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+            String fileName = reader.readLine();
+            try (BufferedReader fileReader = new BufferedReader(new FileReader(fileName))) {
+                String line;
+                int max = 0;
+                List<String> list = new LinkedList<>();
+                while ((line = fileReader.readLine()) != null) {
+                    list.add(line);
 
-        try {
-            price = Float.parseFloat(args[args.length - 2]);
-            qty = Integer.parseInt(args[args.length - 1]);
-        } catch (NumberFormatException e) {
-            return;
-        }
-
-        String productName;
-        if (args.length > 4) {
-            StringBuffer buf = new StringBuffer();
-            for (int i = 1; i < args.length - 2; i++)
-                buf.append(args[i]).append(" ");
-            productName = buf.substring(0, buf.length() - 1);
-        } else
-            productName = args[1];
-
-        BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in));
-        String fileName = consoleReader.readLine();
-        consoleReader.close();
-
-        List<String> lines = new ArrayList<>();
-        try (BufferedReader fileReader = new BufferedReader(new InputStreamReader(new FileInputStream(fileName)))) {
-            while (fileReader.ready())
-                lines.add(fileReader.readLine());
-        }
-
-        Pattern p = Pattern.compile("([0-9]{1,8})");
-        int maxID = 0;
-        for (String s : lines) {
-            Matcher m = p.matcher(s);
-            if (m.lookingAt()) {
-                try {
-                    int id = Integer.parseInt(s.substring(m.start(), m.end()));
-                    if (id > maxID)
-                        maxID = id;
-                } catch (NumberFormatException e) {
-                    continue;
+                    int i = Integer.parseInt(line.substring(0, 8).trim());
+                    if (max < i) {
+                        max = i;
+                    }
                 }
+                try (FileOutputStream fos = new FileOutputStream(fileName)) {
+                    for (String s : list) {
+                        fos.write((String.format("%s%n", s)).getBytes());
+                    }
+
+                    fos.write(String.format("%-8s%-30s%-8s%-4s%n", ++max, args[1], args[2], args[3]).getBytes());
+                }
+
             }
-        }
-
-        if (maxID++ == 99999999)
-            return;
-        String toFile = String.format(Locale.ROOT, "%-8d%-30s%-8.2f%-4d", maxID, productName, price, qty);
-
-        lines.add(toFile);
-        try (BufferedWriter buf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName)))) {
-            for (String s : lines)
-                buf.write(s + "\r\n");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
