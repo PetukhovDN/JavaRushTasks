@@ -12,8 +12,7 @@ public class Solution {
     public static void main(String[] args) {
         //исправьте outputStream/inputStream в соответствии с путем к вашему реальному файлу
         try {
-            //C:\Users\petuh\Desktop
-            File your_file_name = File.createTempFile("C:\\Users\\petuh\\Desktop\\2.txt", null);
+            File your_file_name = new File("your_file_path");
             OutputStream outputStream = new FileOutputStream(your_file_name);
             InputStream inputStream = new FileInputStream(your_file_name);
 
@@ -26,6 +25,7 @@ public class Solution {
             inputStream.close();
 
             boolean bool = ivanov.equals(somePerson);
+            System.out.println(bool);
             //check here that ivanov equals to somePerson - проверьте тут, что ivanov и somePerson равны
 
         } catch (IOException e) {
@@ -70,17 +70,16 @@ public class Solution {
         }
 
         public void save(OutputStream outputStream) throws Exception {
-            try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(outputStream))) {
-                int isPresent = name != null ? 1 : 2;
-                bw.write(isPresent);
-                int length = assets.size();
-                if (isPresent == 1) {
+            try (PrintWriter pw = new PrintWriter(new OutputStreamWriter(outputStream))) {
+                String isPresent = name != null ? "Yes" : "No";
+                pw.println(isPresent);
+                pw.println(assets.size());
+                if (isPresent.equals("Yes")) {
                     for (Asset asset : assets) {
-                        bw.write(asset.getName());
-                        bw.write(String.valueOf(asset.getPrice()));
+                        pw.println(asset.getName());
+                        pw.println(asset.getPrice());
                     }
-                    bw.write(length);
-                    bw.write(name);
+                    pw.println(name);
                 }
             }
             //implement this method - реализуйте этот метод
@@ -88,14 +87,15 @@ public class Solution {
 
         public void load(InputStream inputStream) throws Exception {
             try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
-                int isPresent = br.read();
-                int size = br.read();
-                if (isPresent == 1) {
+                String isPresent = br.readLine();
+                int size = Integer.parseInt(br.readLine());
+                if (isPresent.equals("Yes")) {
                     List<Asset> list = new ArrayList<>(size);
                     for (int i = 0; i < size; i++) {
                         list.add(new Asset(br.readLine(), Double.parseDouble(br.readLine())));
                     }
-                    Human human = new Human(br.readLine(), (Asset) list);
+                    assets = list;
+                    name = br.readLine();
                 }
             }
             //implement this method - реализуйте этот метод
