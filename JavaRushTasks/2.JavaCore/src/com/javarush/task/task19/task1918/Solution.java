@@ -18,9 +18,9 @@ import java.util.List;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        if (reader.readLine().endsWith(".html")) {
+        String fileName = reader.readLine();
             StringBuilder builder = new StringBuilder();
-            try (BufferedReader reader1 = new BufferedReader(new FileReader(reader.readLine()))) {
+            try (BufferedReader reader1 = new BufferedReader(new FileReader(fileName))) {
                 while (reader1.ready()) {
                     builder.append(reader1.readLine());
                 }
@@ -32,4 +32,4 @@ public class Solution {
             }
         }
     }
-}
+
