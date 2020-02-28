@@ -9,7 +9,8 @@ import java.util.stream.Stream;
 */
 
 /**
- * Работает, но слишком долго (простой перебор в лоб)
+ * Работает верно, но слишком долго (простой перебор в лоб)
+ * Валидатор не проходит
  */
 public class Solution {
     public static long[] getNumbers(long N) {
@@ -27,11 +28,7 @@ public class Solution {
             }
 
         }
-        for (long l : list
-        ) {
-            System.out.println(l);
 
-        }
         long[] result = new long[list.size()];
         for (int i = 0; i < list.size(); i++) {
             result[i] = list.get(i);
@@ -39,20 +36,8 @@ public class Solution {
         return result;
 
     }
-    public static boolean isNarc(long x){
-        if(x < 0) return false;
-
-        String xStr = Long.toString(x);
-        int m = xStr.length();
-        long sum = 0;
-
-        for(char c : xStr.toCharArray()){
-            sum += Math.pow(Character.digit(c, 10), m);
-        }
-        return sum == x;
-    }
 
     public static void main(String[] args) {
-        getNumbers(8209);
+        getNumbers(999999);
     }
 }
