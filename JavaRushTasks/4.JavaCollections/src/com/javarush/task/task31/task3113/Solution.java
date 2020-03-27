@@ -11,7 +11,6 @@ import java.nio.file.attribute.BasicFileAttributes;
 */
 public class Solution {
 
-
     private static int countDirectories = 0;
     private static int countFiles = 0;
     private static long sizeOfAllFiles = 0;
